@@ -15,13 +15,14 @@
         font-size: 14px;
         line-height: 20px;
         font-weight: 600;
+        text-align: center;  
       }
 
       .titulo-secao {
         font-size: 28px;
         line-height: 42px;
         font-weight: 600;
-        margin-top: 30px;
+        margin-bottom: 30px;
       }
 
       .trybe-green {
@@ -37,7 +38,7 @@
         line-height: 55px;
         font-weight: 600;
         letter-spacing: -1px;
-        color: darkgreen;
+        color: white;
         margin-bottom: 30px;
       }
 
@@ -67,12 +68,32 @@
           max-width: 80%;
           margin-bottom: 30px;
       }
+
       .market {
           padding: 70px 30px;
           text-align: center;
       }
+
       .market p {
           max-width: 60%;
           margin: auto;
           line-height: 24px;
+      }
+
+      .estudantes {
+          padding: 30px 70px 90px 70px;
+          width: 85%;
+          margin: auto;
+          text-align: center;
+      }
+
+      .estudantes-content {
+          width: 30%;
+          margin: 10px;
+          display: inline-block;
+          vertical-align: middle;
+      }
+
+      .estudantes-content p {
+          margin: 10px 0px  ;
       }
