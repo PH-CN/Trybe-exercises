@@ -1,0 +1,72 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.button {
+        padding: 15px 30px;
+        background-color: #11a36a;
+        text-decoration: none;
+        color: white;
+        border-radius: 5px;
+      }
+
+      .nomes-alunos {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 600;
+      }
+
+      .titulo-secao {
+        font-size: 28px;
+        line-height: 42px;
+        font-weight: 600;
+      }
+
+      .trybe-green {
+        color: #11a36a;
+      }
+
+      body {
+        font-family: Montserrat, sans-serif;
+      }
+
+      #main-title {
+        font-size: 45px;
+        line-height: 55px;
+        font-weight: 600;
+        letter-spacing: -1px;
+        color: darkgreen;
+        margin-bottom: 30px;
+      }
+
+      p,
+      li {
+        color: #475550;
+        font-size: 16px;
+      }
+
+      .picture {
+          border-radius: 50%;
+      }
+
+      .header {
+          background-image: url(/images/smiling-image.jpg);
+          background-size: cover;
+          background-position: 50% 25%;
+          padding: 60px 30px 40px;
+
+      }
+
+      .header-content {
+          max-width: 650px;
+      }
+
+      .header-content p {
+          max-width: 80%;
+          margin-bottom: 30px;
+      }
+      .market {
+          padding: 70px 30px;
+          text-align: center;
+      }
