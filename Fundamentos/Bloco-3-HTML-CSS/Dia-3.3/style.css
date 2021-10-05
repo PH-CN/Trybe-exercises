@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+.texto-destaque {
+  font-family: fantasy;
+}
+
+p,
+li {
+  color: #475550;
+  font-size: 16px;
+}
+
+.trybe-green {
+  color: #11a36a;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 36px;
+  margin-bottom: 30px;
+}
+
+.main-title {
+  font-size: 45px;
+  line-height: 55px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  color: darkgreen;
+  margin-bottom: 30px;
+}
+
+.testimonial-name {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+.button {
+  padding: 15px 30px;
+  background-color: #11a36a;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.header {
+  background-image: url('images/smiling-image.jpg');
+  background-size: cover;
+  background-position: 50% 25%;
+  padding: 60px 30px 40px;
+}
+
+.header-content {
+    max-width: 650px;
+}
+
+.header-content p {
+    max-width: 80%;
+    margin-bottom: 30px;
+}
+.market {
+    padding: 70px 30px;
+    text-align: center;
+}
+
+.market p {
+    max-width: 60%;
+    margin: auto;
+    line-height: 24px;
+}
+.student-testimonial {
+    padding: 30px 70px 90px 70px;
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+.student-content {
+    width: 30%;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.student-content p {
+    margin: 10px 0;
+}
+
+.learning{
+    padding: 30px 70px;
+    background-color: lightgray;
+    min-height: 350px;
+}
+
+.learning li {
+    margin-bottom: 30px;
+    list-style-type: square;
+}
+
+.learning-left{
+    float: left;
+    max-width: 35%;
+}
+
+.learning-right{
+    float: right;
+    margin-right: 60px;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+}
+
+footer a {
+    display: block;
+    width: 290px;
+    margin: 25px auto;
+
+}
+
+.picture {
+  border-radius: 50%;
+}
