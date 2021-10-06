@@ -1,0 +1,19 @@
+h1, p {
+    text-align: center;
+}
+
+ul, ol {
+  list-style: none;
+}
+.center {
+  text-align: center;
+  list-style-position: inside;
+}
+
+ul:hover, ol:hover{
+    background-color: mediumseagreen;
+}
+
+li:active {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
