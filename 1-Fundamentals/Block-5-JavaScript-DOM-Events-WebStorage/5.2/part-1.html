@@ -11,16 +11,29 @@
   </section>
 </main>
 <script>
-  document.querySelector('#elementoOndeVoceEsta').parentElement.style.color = 'blue';
-  document.createElement('p');
-  let containerFirstChildOfChild = document.querySelector('#elementoOndeVoceEsta').children[0];
-  let myPar = document.createElement('p');
-  myPar.innerHTML = 'Boa tarde família.';
+  document.querySelector("#elementoOndeVoceEsta").parentElement.style.color =
+    "blue";
+  document.createElement("p");
+  let containerFirstChildOfChild = document.querySelector(
+    "#elementoOndeVoceEsta"
+  ).children[0];
+  let myPar = document.createElement("p");
+  myPar.innerHTML = "Boa tarde família.";
   containerFirstChildOfChild.appendChild(myPar);
-  let containerFirstChild = document.querySelector('#pai').children[0];
-  let whereIAM = document.querySelector('#elementoOndeVoceEsta');
+  let containerFirstChild = document.querySelector("#pai").children[0];
+  let whereIAM = document.querySelector("#elementoOndeVoceEsta");
   whereIAM.previousElementSibling;
   whereIAM.parentElement.childNodes[4];
   whereIAM.nextElementSibling;
-  document.querySelector('#pai').children[2];
+  document.querySelector("#pai").children[2];
+  let mySec = document.createElement("section");
+  mySec.id = 'createdSibling'
+  document.querySelector('#pai').appendChild(mySec);
+  let mySec2 = document.createElement("section");
+  mySec2.id = 'createdChild';
+  whereIAM.appendChild(mySec2);
+  let mySec3 = document.createElement("section");
+  mySec3.id = 'ChildOfFirstChildOfChild';
+  whereIAM.children[0].appendChild(mySec3);
+  document.getElementById('ChildOfFirstChildOfChild').parentElement.parentElement.nextElementSibling
 </script>
