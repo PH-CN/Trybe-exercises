@@ -41,6 +41,10 @@ function redirect() {
   window.open(myPage)
 }
 
+function changeColor(event) {
+  event.target.style.color = 'red'
+}
+
 function resetText(event) {
   // O Event é passado como um parâmetro para a função.
   event.target.innerText = 'Opção reiniciada';
@@ -53,6 +57,7 @@ secondLi.addEventListener('click', addClassTech);
 thirdLi.addEventListener('click', addClassTech);
 input.addEventListener('keyup', changeText);
 myWebpage.addEventListener('dblclick', redirect);
+myWebpage.addEventListener('mouseover', changeColor)
 
 // Não precisa passar o parâmetro dentro da callback resetText. O próprio
 // navegador fará esse trabalho por você, não é legal? Desse jeito, o
