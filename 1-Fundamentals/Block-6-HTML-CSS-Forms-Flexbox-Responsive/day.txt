@@ -1,0 +1,1 @@
+We learned how to apply frameworks and use them in our web pages and forms. (I didn't do any exercises here because it's basically apllying pre-made classes and functions in the html file.)
