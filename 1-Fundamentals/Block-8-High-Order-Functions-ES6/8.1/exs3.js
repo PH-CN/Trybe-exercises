@@ -17,6 +17,6 @@ const action = (rAnswer, sAnswer) => {
     return 0;
   }
   return -0.5;
-}
+};
 
-console.log(finalGrade(RIGHT_ANSWERS, STUDENT_ANSWERS, action))
+console.log(finalGrade(RIGHT_ANSWERS, STUDENT_ANSWERS, action));
