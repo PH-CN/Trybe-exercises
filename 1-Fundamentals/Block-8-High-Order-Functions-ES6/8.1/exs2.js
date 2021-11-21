@@ -10,7 +10,7 @@ const checkNumber = (myNumber, winner) => {
       return true;
     } else {
       return false;
-    }
-}
+    };
+};
 
 console.log(raffle(10, checkNumber));
