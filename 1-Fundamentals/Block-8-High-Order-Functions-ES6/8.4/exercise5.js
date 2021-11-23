@@ -5,11 +5,7 @@ const names = [
 ];
 
 function containsA() {
-  return names.reduce((acc, curr) =>
-     acc + curr.split('').reduce((acumulator, current) => {
-        if (current === 'a' || current === 'A') return acumulator + 1;
-        return acumulator;
-     }, 0), 0);
-}
+  return names.toString().split('').reduce((acc,curr) => (curr === 'a' || curr === 'A') ? acc + 1 : acc, 0);
+};
 
 console.log(containsA());

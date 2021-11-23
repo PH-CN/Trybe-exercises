@@ -14,6 +14,4 @@ const expected = [
   { name: 'Maria Clara', average: 8.8 },
 ];
 
-const function1 = () => {} 
-
-console.log(studentAverage())
+console.log(studentAverage());
