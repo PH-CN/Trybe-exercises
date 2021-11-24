@@ -20,7 +20,7 @@ const estudantes = [
       { name: 'Matemática', nota: 59 },
       { name: 'Português', nota: 80 },
       { name: 'Química', nota: 78 },
-      { name: 'Biologia', nota: 92 },
+      { name: 'Biologia', nota: 91 },
     ],
   },
   {
