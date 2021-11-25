@@ -64,7 +64,7 @@ const books = [
 const expectedResult = 43;
 
 function averageAge() {
-  const result = books.reduce((acc, current, i, a) => acc + current.releaseYear - current.author.birthYear, 0);
+  const result = books.reduce((acc, current) => acc + current.releaseYear - current.author.birthYear, 0);
 
   return result / books.length;
 };
