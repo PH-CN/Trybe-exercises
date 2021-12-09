@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "node-fetch": "^2.6.6"
+  },
+  "name": "9.3",
+  "version": "1.0.0",
+  "main": "test1.js",
+  "devDependencies": {
+    "jest": "^27.4.3"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
