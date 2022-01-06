@@ -26,9 +26,9 @@ const conteudos = [
 const Task = (value) => {
   return (
     <li key={value.conteudo}>
-    O Conteúdo é:  {value.conteudo} <br/>
-    Status:  {value.status} <br />
-    Bloco:  {value.bloco} <br />
+    O Conteúdo é: {value.conteudo} <br/>
+    Status: {value.status} <br />
+    Bloco: {value.bloco} <br />
     <br />
     </li>
   );
