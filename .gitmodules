@@ -7,3 +7,6 @@
 [submodule "2-Front-end/Block-17-Context-API-React-Hooks/17.2/exercise-tryfood"]
 	path = 2-Front-end/Block-17-Context-API-React-Hooks/17.2/exercise-tryfood
 	url = https://github.com/PH-CN/exercise-tryfood
+[submodule "2-Front-end/Block-17-Context-API-React-Hooks/17.2/exercise-react-hooks-refactoring"]
+	path = 2-Front-end/Block-17-Context-API-React-Hooks/17.2/exercise-react-hooks-refactoring
+	url = git@github.com:PH-CN/trybe-exercises.git
