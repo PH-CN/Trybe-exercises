@@ -1,0 +1,1 @@
+We have trained docker basic commands.
