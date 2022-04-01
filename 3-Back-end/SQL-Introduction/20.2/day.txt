@@ -1,0 +1,1 @@
+Exercising most used commands on SQL Workbench.

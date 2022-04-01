@@ -1,1 +1,1 @@
-Introduction to SQL. We installed everything we are going to need to learn about it.
+Introduction to SQL. We installed everything we are going to need to learn about SQL and databases.
