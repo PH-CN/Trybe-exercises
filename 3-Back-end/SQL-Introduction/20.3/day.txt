@@ -1,0 +1,1 @@
+Training use of BETWEEN, IN, WHERE, LIKE, IS, OR, NOT, NULL, TRUE, FALSE on MySQL WorkBench.
