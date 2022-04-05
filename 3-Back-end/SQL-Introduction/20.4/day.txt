@@ -1,0 +1,1 @@
+Training more commands on MySQL Workbench, now we are using INSERT, DELETE, UPDATE and etc.
