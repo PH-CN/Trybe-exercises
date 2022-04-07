@@ -1,0 +1,1 @@
+Introduction to most used SQL functions and how we can use it (Exercises for fixing).
