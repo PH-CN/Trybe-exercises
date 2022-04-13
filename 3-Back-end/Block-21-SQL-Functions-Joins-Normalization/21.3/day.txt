@@ -1,0 +1,1 @@
+Exercises normalizing non-normal tables/structuring and creating databases.
