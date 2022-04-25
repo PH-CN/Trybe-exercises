@@ -21,7 +21,7 @@ app.post('/simpsons', (req, res) => {
   const exists = arraySimpsons.find((s) => s.id === id);
   if (exists) return res.status(409).json({"message": "id already exists."});
   arraySimpsons.push({ id, name });
-  res.status(204).end();
+  res.status(204).json({"message": "Success"});
 })
 
 app.listen(3002, () => {
