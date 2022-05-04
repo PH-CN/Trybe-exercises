@@ -48,4 +48,31 @@ app.get('/user/:id', async (req, res) => {
 	return res.status(200).json(user);
 });
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`));  
+app.put('/user/:id', async (req, res) => {
+	const { id } = req.params;
+
+	const { firstName, lastName, email, password } = req.body;
+
+	const verify = User.validation(firstName, lastName, email, password);
+
+	if (verify && verify.error) {
+		return res.status(400).json(verify.message);
+	}
+
+	const updatedUser = await User.updateUser(id, firstName, lastName, email, password);
+
+	if (!updatedUser) {
+		return res.status(404).json({ error: true, message: 'Usuário não encontrado' });
+	}
+
+	const response = {
+		id,
+		firstName,
+		lastName,
+		email
+	};
+
+	return res.status(200).json(response);
+});
+
+app.listen(port, () => console.log(`Example app listening on port ${port}!`));

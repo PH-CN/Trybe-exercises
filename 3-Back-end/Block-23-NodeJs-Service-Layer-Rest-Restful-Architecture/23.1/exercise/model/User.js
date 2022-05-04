@@ -26,9 +26,17 @@ const getAll = async () => {
 const getById = async (id) => {
 	return await connection.execute('SELECT * FROM model_example.users WHERE id = ?', [id]);
 };
+
+const updateUser = async (id, firstName, lastName, email, password) => {
+	const query = ' UPDATE users SET firstName = ?, lastName = ?, email = ?, password = ? WHERE id = ? ';
+
+	return await connection.execute(query, [firstName, lastName, email, password, id]);
+};
+
 module.exports = {
 	validation,
 	create,
 	getAll,
-	getById
+	getById,
+	updateUser
 };
