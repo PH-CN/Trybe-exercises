@@ -7,3 +7,6 @@
 [submodule "2-Front-end/Block-17-Context-API-React-Hooks/17.2/exercise-react-hooks-refactoring"]
 	path = 2-Front-end/Block-17-Context-API-React-Hooks/17.2/exercise-react-hooks-refactoring
 	url = git@github.com:PH-CN/exercise-react-hooks-refactoring.git
+[submodule "3-Back-end/Block-23-NodeJs-Service-Layer-Rest-Restful-Architecture/23.4/26.4_testes_em_camadas"]
+	path = 3-Back-end/Block-23-NodeJs-Service-Layer-Rest-Restful-Architecture/23.4/26.4_testes_em_camadas
+	url = git@github.com:PH-CN/26.4_testes_em_camadas.git
