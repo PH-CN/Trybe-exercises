@@ -9,7 +9,7 @@ module.exports = {
       },
       fullName: {
         type: Sequelize.STRING,
-field: 'full_name',
+        field: 'full_name',
       },
       email: {
         type: Sequelize.STRING,
@@ -17,12 +17,12 @@ field: 'full_name',
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE,
-           field: 'created_at', // a coluna será criada no banco com este nome
+        field: 'created_at', // a coluna será criada no banco com este nome
       },
       updatedAt: {
         allowNull: false,
         type: Sequelize.DATE,
-           field: 'updated_at', // a coluna será criada no banco com este nome
+        field: 'updated_at', // a coluna será criada no banco com este nome
       }
     });
   },
