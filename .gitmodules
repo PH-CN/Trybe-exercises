@@ -10,3 +10,9 @@
 [submodule "3-Back-end/Block-23-NodeJs-Service-Layer-Rest-Restful-Architecture/23.4/26.4_testes_em_camadas"]
 	path = 3-Back-end/Block-23-NodeJs-Service-Layer-Rest-Restful-Architecture/23.4/26.4_testes_em_camadas
 	url = git@github.com:PH-CN/26.4_testes_em_camadas.git
+[submodule "3-Back-end/Block-24-NodeJs-ORM-Authentication/24.2/3-Back-end/Block-24-NodeJs-ORM-Authentication/24.2/exercise-sequelize-associations"]
+	path = 3-Back-end/Block-24-NodeJs-ORM-Authentication/24.2/3-Back-end/Block-24-NodeJs-ORM-Authentication/24.2/exercise-sequelize-associations
+	url = git@github.com:PH-CN/exercise-sequelize-associations.git
+[submodule "3-Back-end/Block-24-NodeJs-ORM-Authentication/24.2/exercise-sequelize-associations"]
+	path = 3-Back-end/Block-24-NodeJs-ORM-Authentication/24.2/exercise-sequelize-associations
+	url = git@github.com:PH-CN/exercise-sequelize-associations.git
