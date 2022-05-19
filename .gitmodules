@@ -13,3 +13,6 @@
 [submodule "3-Back-end/Block-24-NodeJs-ORM-Authentication/24.2/3-Back-end/Block-24-NodeJs-ORM-Authentication/24.2/exercise-sequelize-associations"]
 	path = 3-Back-end/Block-24-NodeJs-ORM-Authentication/24.2/3-Back-end/Block-24-NodeJs-ORM-Authentication/24.2/exercise-sequelize-associations
 	url = git@github.com:PH-CN/exercise-sequelize-associations.git
+[submodule "3-Back-end/Block-24-NodeJs-ORM-Authentication/24.2/exercise-sequelize-associations"]
+	path = 3-Back-end/Block-24-NodeJs-ORM-Authentication/24.2/exercise-sequelize-associations
+	url = git@github.com:PH-CN/exercise-sequelize-associations.git
