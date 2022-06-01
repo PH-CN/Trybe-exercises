@@ -19,3 +19,6 @@
 [submodule "3-Back-end/Block-24-NodeJs-ORM-Authentication/24.4/24.4-testes-em-camadas"]
 	path = 3-Back-end/Block-24-NodeJs-ORM-Authentication/24.4/24.4-testes-em-camadas
 	url = git@github.com:PH-CN/26.4_testes_em_camadas.git
+[submodule "3-Back-end/Block-24-NodeJs-ORM-Authentication/24.4/exercise-integrated-tests"]
+	path = 3-Back-end/Block-24-NodeJs-ORM-Authentication/24.4/exercise-integrated-tests
+	url = git@github.com:PH-CN/26.4_testes_em_camadas.git
