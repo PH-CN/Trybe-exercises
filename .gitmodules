@@ -16,3 +16,9 @@
 [submodule "3-Back-end/Block-24-NodeJs-ORM-Authentication/24.4/exercise-integrated-tests"]
 	path = 3-Back-end/Block-24-NodeJs-ORM-Authentication/24.4/exercise-integrated-tests
 	url = git@github.com:PH-CN/26.4_testes_em_camadas.git
+[submodule "3-Back-end/Block-25-Deployment/25.1/node-deploy-heroku"]
+	path = 3-Back-end/Block-25-Deployment/25.1/node-deploy-heroku
+	url = git@github.com:PH-CN/node-deploy-heroku.git
+[submodule "3-Back-end/Block-25-Deployment/25.1/react-deploy-heroku"]
+	path = 3-Back-end/Block-25-Deployment/25.1/react-deploy-heroku
+	url = git@github.com:PH-CN/react-deploy-heroku.git
