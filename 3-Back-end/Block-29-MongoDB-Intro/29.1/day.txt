@@ -1,0 +1,1 @@
+MongoDB introduction explanation and realization of exercises using find function, countDocuments, mongoimport, etc.

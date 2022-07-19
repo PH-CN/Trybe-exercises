@@ -1,0 +1,1 @@
+Conclusion of project 'Trybe Futebol Clube'. We used React, Javascript, TypeScript, Node.js, Express, SOLID, OOP, Sequelize ORM and MySQL as database.
