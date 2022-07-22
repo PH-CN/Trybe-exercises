@@ -1,0 +1,1 @@
+Exercises with consult operators ($all, $elenMatch, $size, $regex, $mod, $expr)

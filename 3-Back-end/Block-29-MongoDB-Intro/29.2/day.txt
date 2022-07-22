@@ -1,0 +1,1 @@
+Exercises with filter operators ($in, $not, $lt, $gt, deleteOne, deleteMany)
