@@ -1,0 +1,24 @@
+[submodule "2-Front-end/Block-17-Context-API-React-Hooks/17.1/exercise-contextAPI-refactoring"]
+	path = 2-Front-end/Block-17-Context-API-React-Hooks/17.1/exercise-contextAPI-refactoring
+	url = https://github.com/PH-CN/exercise-contextAPI-refactoring
+[submodule "2-Front-end/Block-17-Context-API-React-Hooks/17.2/exercise-tryfood"]
+	path = 2-Front-end/Block-17-Context-API-React-Hooks/17.2/exercise-tryfood
+	url = https://github.com/PH-CN/exercise-tryfood
+[submodule "2-Front-end/Block-17-Context-API-React-Hooks/17.2/exercise-react-hooks-refactoring"]
+	path = 2-Front-end/Block-17-Context-API-React-Hooks/17.2/exercise-react-hooks-refactoring
+	url = git@github.com:PH-CN/exercise-react-hooks-refactoring.git
+[submodule "3-Back-end/Block-23-NodeJs-Service-Layer-Rest-Restful-Architecture/23.4/26.4_testes_em_camadas"]
+	path = 3-Back-end/Block-23-NodeJs-Service-Layer-Rest-Restful-Architecture/23.4/26.4_testes_em_camadas
+	url = git@github.com:PH-CN/26.4_testes_em_camadas.git
+[submodule "exercise-associations"]
+	path = 3-Back-end/Block-24-NodeJs-ORM-Authentication/24.2/exercise-sequelize-associations
+	url = git@github.com:PH-CN/exercise-sequelize-associations.git
+[submodule "3-Back-end/Block-24-NodeJs-ORM-Authentication/24.4/exercise-integrated-tests"]
+	path = 3-Back-end/Block-24-NodeJs-ORM-Authentication/24.4/exercise-integrated-tests
+	url = git@github.com:PH-CN/26.4_testes_em_camadas.git
+[submodule "3-Back-end/Block-25-Deployment/25.1/node-deploy-heroku"]
+	path = 3-Back-end/Block-25-Deployment/25.1/node-deploy-heroku
+	url = git@github.com:PH-CN/node-deploy-heroku.git
+[submodule "3-Back-end/Block-25-Deployment/25.1/react-deploy-heroku"]
+	path = 3-Back-end/Block-25-Deployment/25.1/react-deploy-heroku
+	url = git@github.com:PH-CN/react-deploy-heroku.git
